@@ -1,0 +1,101 @@
+.full {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /*margin: 0px;*/
+}
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -40px;
+    /*隨footer高度需做調整*/
+}
+.header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: #110264;
+    z-index: 1;
+}
+.shortcut_left {
+    width: 591px;
+    height: 50px;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 0 50px;
+}
+.nav_main {
+    width: 560px;
+    height: 50px;
+    z-index: 99;
+    position: relative;
+}
+.nav_left {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.nav-left .li {
+    color: white;
+    float: left;
+    text-align: center;
+    height: 100%;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+.shortcut_right {
+    display: inline-block;
+    vertical-align: top;
+    height: 44px;
+    margin: 13px 0;
+}
+.content {
+    position:   absolute;
+    margin-top: 70px;  /*隨topnav高度做調整*/
+    margin-bottom: 10%; 
+    min-height: 100%;
+    
+}
+.carousel_container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(90, 86, 86);
+    margin: auto;
+    text-align: center;
+}
+.carousel_wrapper {
+    position: relative;
+    margin:auto;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.h-content {
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 20px;
+}
+.banner-container {
+    
+}
+.banner-wrapper { 
+    width: 50%;
+    display: inline-block;
+    
+    
+}
+.footer {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #110264;
+}
+.shortcut_down {
+    height: 50px;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 0 50px;
+}

@@ -1,0 +1,2 @@
+index.js	import各種要用的東西，不寫code只呼叫其他要用的
+App.js	code放這裡
